@@ -1,0 +1,288 @@
+.addBill_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.addBill_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 250px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.addBill_heading_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width : 100%;
+}
+
+.addBill_heading {
+    font-size: 26px;
+    color: #27ae60;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Body of the add bill component */
+.addBill_body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.addBill_display {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Form for adding items to the bill */
+.addBill_item_form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Form divisions */
+.addBill_item_form_div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Labels for form inputs */
+.addBill_item_form_label {
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Input fields */
+.addBill_item_form_field {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons in the form */
+.addBill_item_form_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Add button */
+.addBill_item_form_btn_add {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addBill_item_form_btn_add:hover{
+    background-color: #27ae60;
+   
+}
+
+/* Clear button */
+.addBill_item_form_btn_clear {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addBill_item_form_btn_clear:hover {
+    background-color: #c0392b;
+}
+
+/* Detail section */
+.addBill_detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Detail data */
+.addBill_detail_data {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Table for displaying cart items */
+.addBill_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table head */
+.addBill_cart_head {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Table data cells */
+.addBill_cart_data {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Row for cart items */
+.addBill_cart_row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.addBill_cart_row:hover {
+    background-color: #f1f1f1;
+}
+
+.addBill_cart_message {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    width: 100%;
+    height: 100%; 
+    margin: 0; 
+}
+
+/* Main section of the add bill component */
+
+.addBill_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Bill section */
+.addBill_bill_div {
+    width: 40%;
+    padding: 20px;
+}
+
+/* Form for bill details */
+.addBill_bill_form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form divisions */
+.addBill_bill_form_div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Labels for form inputs */
+.addBill_bill_form_label {
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Input fields */
+.addBill_bill_form_field {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Select field */
+.addbill_bill_select_field {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Select options */
+.addbill_bill_select_value {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Output balance display */
+.addBill_bill_out_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Balance text */
+.addBill_bill_out {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Buttons in the form */
+.addBill_bill_form_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Submit button */
+.addBill_bill_form_btn_submit {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addBill_bill_form_btn_submit:hover {
+    background-color: #27ae60;
+    
+}
+/* Clear button */
+.addBill_bill_form_btn_clear {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addBill_bill_form_btn_clear:hover {
+    background-color: #c0392b;
+}
+
+.addBill_bill{
+    width: 100%;
+    margin-top: 20px;
+}

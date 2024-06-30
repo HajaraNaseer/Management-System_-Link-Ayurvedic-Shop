@@ -1,0 +1,156 @@
+.viewBill_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.viewBill_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 250px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.viewBill_heading_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width : 100%;
+}
+
+.viewBill_heading {
+    font-size: 26px;
+    color: #27ae60;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* viewbill.css */
+
+.viewBill_form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.viewBill_form_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.viewBill_form_label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.viewBill_form_field {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.viewBill_form_btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.viewBill_form_btn_search {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color:  #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.viewBill_form_btn_search:hover {
+    background-color: #27ae60;
+}
+
+.viewBill_out {
+    margin-top: 20px;
+}
+
+.viewBill_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.viewBill_table_heading {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.viewBill_table_row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.viewBill_table_row:hover {
+    background-color: #e9ecef;
+}
+
+.viewBill_table_data {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+.viewBill_out_data_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+.viewBill_out_data {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.viewBill_out_label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.viewBill_out_value {
+    text-align: right;
+}

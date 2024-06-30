@@ -1,0 +1,123 @@
+.login_container {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color:  #f9f9f9; 
+    font-family: "Poetsen One", sans-serif;
+  }
+  
+  .login_head {
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .login_head_main {
+    font-size: 28px;
+    font-weight: bold;
+    color: #27ae60; 
+  }
+  
+  .login_head_sub {
+    font-size: 16px;
+    color: #27ae60; 
+  }
+
+  .login_form {
+    width: 400px; 
+    background-color: #fff;
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
+    box-sizing: border-box; 
+  }
+  
+
+  .login_heading_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .login_icon {
+    font-size: 30px;
+    color: #27ae60; 
+    margin-right: 10px;
+  }
+  
+  .login_heading {
+    font-size: 24px;
+    color: #27ae60; 
+    font-weight: bold;
+  }
+  
+  
+  .login_form_input {
+    margin-bottom: 15px;
+  }
+  
+  .login_form_label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #34495e; 
+    font-weight: bold;
+  }
+  
+  .login_form_field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333; 
+    background-color: #f9f9f9; 
+    box-sizing: border-box;
+  }
+
+  .login_form_error {
+    color: #c0392b; 
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .login_btn {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login_btn input {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login_btn_submit {
+    background-color: #2ecc71; /* Light green color */
+    color: white;
+  }
+  
+  .login_btn_submit:hover {
+    background-color: #27ae60; /* Darker shade of green */
+  }
+  
+  .login_btn_reset {
+    background-color: #e74c3c; /* Red color */
+    color: white;
+  }
+  
+  .login_btn_reset:hover {
+    background-color: #c0392b; /* Darker shade of red */
+  }
+  

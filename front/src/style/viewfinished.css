@@ -1,0 +1,165 @@
+.viewFinished_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.viewFinished_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 250px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.viewFinished_heading_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width : 100%;
+}
+
+.viewFinished_heading {
+    font-size: 26px;
+    color: #27ae60;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.viewFinished_heading_search {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+} 
+
+.viewFinished_item_div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.viewFinished_item {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.viewFinished_item:hover {
+    transform: scale(1.02);
+    background-color:  #fffefe;
+}
+
+.viewFinished_item_image {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.viewFinished_item_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.viewFinished_item_data {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+    margin: 0 10px;
+}
+
+.viewFinished_message {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    margin: 20px 0;
+    height: 50px;
+}
+
+.viewFinished_table th, .viewFinished_table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.viewFinished_table th {
+    background-color: #27ae60;
+    color: white;
+    font-weight: bold;
+}
+
+.viewFinished_item_data_marked{
+    color: #dc1e1e;
+}
+
+.viewFinished_item_btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds space between buttons */
+    align-items: center; /* Centers buttons horizontally */
+    margin-top: 15px; /* Adds space above the button group */
+}
+
+.viewFinished_item_btn_update,
+.viewFinished_item_btn_block,
+.viewFinished_item_btn_unblock,
+.viewFinished_item_btn_delete {
+    padding: 10px 20px; /* Adds padding inside buttons */
+    font-size: 16px; /* Standardizes font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 5px; /* Rounds button corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Adds transition effects */
+}
+
+.viewFinished_item_btn_update {
+    background-color: #2ecc71;
+    color: white;
+    border: 0;
+}
+
+.viewFinished_item_btn_update:hover {
+    background-color: #27ae60;
+    transform: scale(1.05); /* Slightly enlarges button on hover */
+}
+
+.viewFinished_item_btn_block,
+.viewFinished_item_btn_unblock {
+    background-color: #eaa121;
+    color: white;
+    border: 0;
+}
+
+.viewFinished_item_btn_block:hover,
+.viewFinished_item_btn_unblock:hover {
+    background-color: #d68513;
+    transform: scale(1.05); /* Slightly enlarges button on hover */
+}
+
+.viewFinished_item_btn_delete {
+    background-color: #e74c3c;
+    color: white;
+    border: 0;
+}
+
+.viewFinished_item_btn_delete:hover {
+    background-color: #c0392b;
+    transform: scale(1.05); /* Slightly enlarges button on hover */
+}

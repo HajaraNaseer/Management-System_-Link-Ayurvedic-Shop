@@ -1,0 +1,96 @@
+.bill_container {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+.bill_heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bil_heading_name {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bil_heading_address,
+.bil_heading_phone {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.bill_detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.bill_detail span {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.bill_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+
+.bill_table_head {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bill_table_data_row {
+    background-color: #fff;
+}
+
+.bill_table_data {
+    padding: 8px;
+    text-align: right;
+}
+
+.bill_data_main_div {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+
+.bill_data_div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.bill_data_label {
+    font-weight: bold;
+}
+
+.bill_footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bill_footer_line {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}

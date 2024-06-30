@@ -1,0 +1,46 @@
+.navbar_container {
+    width: 250px;
+    background-color: #2ecc71;
+    color: #000000dc;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.navbar_heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.navbar_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.navbar_list_item {
+    margin-bottom: 10px;
+}
+
+.navbar_list_item_link {
+    text-decoration: none;
+    color: #000000dc;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar_list_item_link:hover {
+    background-color: #e0dada;
+}
